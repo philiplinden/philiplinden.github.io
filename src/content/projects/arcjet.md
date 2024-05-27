@@ -1,13 +1,11 @@
 ---
-title: "spacetime"
-description: "A simulation of heterogeneous networked clocks in cislunar space, built in Rust on the Bevy game engine."
-pubDate: "January 2024"
-heroImage: "/post_img.webp"
-project_link: "https://philiplinden.github.io/spacetime"
-tags: ["ongoing", "simulation", "rust", "timekeeping", "lunar"]
+title: "1 kW Arcjet Thruster"
+description: "In college I didn't play with fire but I did play with plasma..."
+pubDate: "May 2017"
+heroImage: "/arcjet.webp"
+project_link: "https://github.com/RIT-Space-Exploration/msd-P17101/blob/master/p17101.pdf"
+tags: ["completed", "RIT", "propulsion", "design", "plasma", "near-death experience"]
 ---
+**Undergraduate Capstone, 2017**
 
-### 1 kW Arcjet Thruster
-**[GitHub: RIT-Space-Exploration/msd-P17101](https://github.com/RIT-Space-Exploration/msd-P17101/blob/master/p17101.pdf)**  
-**Undergraduate Capstone, 2017**  
-Developed the conce
+Developed the concept, system-level design, and nozzle design for a small scale arcjet thruster demonstration. Worked in a multidisciplinary team of mechanical and electrical engineers. Responsible for communication between the team and the customer (RIT Space Exploration). Designed and performed CFD analysis on the thruster nozzle.

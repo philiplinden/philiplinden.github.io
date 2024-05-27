@@ -4,7 +4,7 @@ description: "I produced, edited, and co-hosted a podcast about the science and 
 project_link: "https://blog.spexcast.com/"
 pubDate: "March 2016"
 heroImage: "/Phil & TJ.webp"
-tags: ["free time", "creative", "over"]
+tags: ["free time", "creative", "done", "writing"]
 ---
 I produced, edited, and co-hosted a podcast and blog about the science and technology of space exploration.
 
