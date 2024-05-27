@@ -9,10 +9,11 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <a href="https://github.com/philiplinden/resume/blob/main/resume.pdf" target="_blank" class="btn btn-secondary ml-5">
+      Download my latest CV
+    </a>
+    <a class="btn btn-outline ml-5" href="https://www.researchgate.net/profile/Philip-Linden-3" target="_blank">Publications</a>
+    <a class="btn ml-5" href="https://github.com/new?template_name=resume&template_owner=philiplinden" target="_blank">Fork my CV format class</a>
   </div>
 
   <div class="mb-5">
@@ -21,12 +22,12 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Bachelor of Science in Mechanical Engineering -- Aerospace Option"
+      subtitle="May 2017 at Rochester Institute of Technology, Rochester, NY, USA"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Master of Engineering in Mechanical Engineering"
+      subtitle="May 2017 at Rochester Institute of Technology, Rochester, NY, USA"
     />
   </div>
 
@@ -36,57 +37,104 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Senior Space Systems Engineer, Mission Operations"
+      subtitle="From November 2018 to Present at Planet, San Francisco, CA, USA"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul>
+        <li>Designed and implemented automated flight operations scripts to maximize satellite operations uptime, detect and respond to anomalies, and update onboard software.</li>
+        <li>Responsible Engineer for the entire SkySat optical assembly and onboard imaging chain.</li>
+        <li>Responsible Engineer for SkySat, Pelican, and Tanager imaging ConOps and on-orbit payload commissioning.</li>
+      </ul>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Space Systems Engineer / Flight Operator, SkySat Mission Operations"
+      subtitle="From November 2018 to Present at Planet, San Francisco, CA, USA"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul>
+        <li>Conducted flight operations for the SkySat constellation of 21 Earth observation satellites, including manual commanding, anomaly investigation & resolution, and development of new spacecraft activities, operations procedures, automated procedures, and automated on-orbit activities.</li>
+        <li>Maintained spacecraft testbed and ground support equipment for hardware-in-the-loop testing.</li>
+        <li>Publications: <a href="https://digitalcommons.usu.edu/smallsat/2021/all2021/189/">SSC21-VIII-05</a> (2021), <a href="https://doi.org/10.1109/AERO55745.2023.10115608">doi:10.1109/AERO55745.2023.10115608</a> (2023)</li>
+      </ul>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Rocketeer, Senator, Citizen Voter"
+      subtitle="From January 2023 to Present at MoonDAO, San Francisco, CA, USA"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul>
+        <li>Voting member, community manager, and among the top 5 most active contributors.</li>
+        <li>Project: DeSci Labs Publication Reproducibility Validations</li>
+        <li>Project: Cislunar Open Clock Synchronization System (CLOCSS)</li>
+      </ul>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Research Fellow, Timekeeping & Lunar Clocks"
+      subtitle="From January 2023 to May 2023 at Open Lunar Foundation, San Francisco, CA, USA"
+    >
+      <ul>
+        <li>Researched the feasibility of a local lunar time standard or a shared and openly accessible reference timing signal for positioning, navigation, and timing (PNT) capabilities of lunar missions.</li>
+        <li>Proposed the concept of a local lunar time standard that can be accessed using technology that is likely to be included in most lunar missions for nominal activities.</li>
+        <li>Project: Possibilities for a Local Lunar Time Standard</li>
+      </ul>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Electro-Optical Engineer, Optical Payload Center of Excellence"
+      subtitle="From June 2017 to November 2018 at Lockheed Martin Space, Sunnyvale, CA, USA"
+    >
+      <ul>
+        <li>Characterized focal plane arrays and imaging systems in optical labs.</li>
+        <li>Systems engineering and Electro-Optical engineering on IRAD projects to support major business pursuits.</li>
+        <li>Led a software team through critical development milestones for Matlab engineering tools.</li>
+      </ul>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Vehicle Engineering Intern, Capsule Structures"
+      subtitle="From June 2016 to August 2016 at SpaceX, Hawthorne, CA, USA"
+    >
+      <ul>
+        <li>Modeled and drafted designs for critical structures for the Crew Dragon vehicle.</li>
+      </ul>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Vehicle Engineering Intern, Capsule Reusability"
+      subtitle="From January 2015 to July 2015 at SpaceX, Hawthorne, CA, USA"
+    >
+      <ul>
+        <li>Project development, including hands-on prototyping and designing, conducting and presenting experiments to explore changes to Dragon Cargo space capsules.</li>
+      </ul>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Alumni Member"
+      subtitle="From Fall 2014 to Present at RIT Space Exploration (RITSPEX), Rochester, NY, USA"
+    >
+      <ul>
+        <li>Mentored undergraduate students working on space exploration projects.</li>
+        <li>Provided subject-matter expertise in imaging projects and control systems.</li>
+      </ul>
     </TimeLineElement>
   </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
-  </div>
-
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-  </ul>
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Skills</div>
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <li>Mission Operations</li>
+    <li>Space Systems Engineering</li>
+    <li>Imaging Science</li>
+    <li>Git</li>
+    <li>Python</li>
+    <li>Rust</li>
+    <li>MATLAB</li>
+    <li>Simulink</li>
+    <li>Docker</li>
+    <li>CAD</li>
+    <li>LaTeX</li>
+    <li>MacOS</li>
+    <li>Linux</li>
+    <li>Controls</li>
+    <li>Web3 (Ethereum)</li>
+    <li>Timekeeping</li>
+    <li>Technical Writing</li>
+    <li>Public Speaking</li>
   </ul>
 </BaseLayout>
