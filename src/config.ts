@@ -5,4 +5,3 @@ export const SITE_TITLE = 'Philip Linden | Space Systems Engineer, Open Lunar Fe
 export const SITE_DESCRIPTION = 'Phil is a spacecraft engineer, writer, and all around space nerd. His core values are: Do Good, Be Collaborative, Dream Big, Strive for Openness, and Take Pride in Every Task.';
 export const GENERATE_SLUG_FROM_TITLE = true
 export const TRANSITION_API = true
-export const THEME = "lofi"
