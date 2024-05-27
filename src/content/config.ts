@@ -1,5 +1,5 @@
 import { z, defineCollection } from "astro:content";
-const blogSchema = z.object({
+const projectSchema = z.object({
     title: z.string(),
     description: z.string(),
     project_link: z.string(),
@@ -25,13 +25,13 @@ const storeSchema = z.object({
     heroImage: z.string().optional(),
 });
 
-export type BlogSchema = z.infer<typeof blogSchema>;
+export type ProjectSchema = z.infer<typeof projectSchema>;
 export type StoreSchema = z.infer<typeof storeSchema>;
 
-const blogCollection = defineCollection({ schema: blogSchema });
+const projectCollection = defineCollection({ schema: projectSchema });
 const storeCollection = defineCollection({ schema: storeSchema });
 
 export const collections = {
-    'blog': blogCollection,
+    'projects': projectCollection,
     'store': storeCollection
 }
